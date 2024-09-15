@@ -1,0 +1,241 @@
+.title{
+    font-size: 48px;
+    font-weight: 600;
+}
+.div{
+    width: 398px;
+    height: 387px;
+}
+.brighthousing{
+    background-image: url(assets/img/brighthousing.png);
+    background-size:cover;
+}
+.crystalhousing{
+    background-image: url(assets/img/burj_al_jinnah_37145.png);
+    background-size: cover;
+}
+.goldentowers{
+    background-image: url(assets/img/goldentowers.png);
+    background-size: cover;
+}
+.diamondhousing{
+    background-image: url(assets/img/diamondhousing.png);
+    background-size: cover;
+}
+.jubliehousing{
+    background-image: url(assets/img/medium_Jinnah_Square_night_scene_cam_02_dcf33c484d.png);
+    background-size: cover;
+
+}
+.aquaresidentials{
+    background-image: url(assets/img/aquaresidencia.png);
+    background-size: cover;
+}
+.futureproject1{background-image: url(assets/img/futureproject1.png);}
+.futureproject2{background-image: url(assets/img/futureproject2.png);}
+.futureproject3{background-image: url(assets/img/futureproject3.png);}
+.div1{
+    width: 358px;
+    height: 130px;
+    background-image: url(assets/img/map.png);
+    background-size: cover;
+}
+.pfr{
+    width: 398px;
+    height: 442px;
+    font-size: 24px;
+}
+@media only screen and (max-width:768px){
+    .title{
+        font-size: 38px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:425px){
+    .title{
+        font-size: 24px;
+        margin-top: 18px;
+    }
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.anim{
+    animation: slideIn 2s ease-in-out;
+}
+/* Blogs */
+.carousel-item img {
+    max-height: 500px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+/* Full-width carousel caption with black background */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* 50% black opacity */
+    width: 100%; /* Full width */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    bottom: 0; /* Align to bottom */
+    padding: 10px; /* Padding for text */
+    margin: 0; /* Remove margin */
+    text-align: center; /* Center text */
+}
+   .cc{
+
+   } 
+    /* Blog card styles */
+    .bc {
+        position: relative;
+        min-height: 250px; /* Increased card height */
+        overflow: hidden;  /* Ensures content doesn't overflow */
+    }
+    .ci {
+    height: 250px; /* Increased image height */
+    object-fit: cover;
+}
+    .overlay-content {
+        background-color: rgba(0, 0, 0, 0.6); /* 50% black opacity for content */
+    }
+    
+    .bc img {
+        max-height: 250px; /* Adjust height as needed */
+        object-fit: cover;
+    }
+
+    .blog-viewmore{
+        color: white;
+        background-color: #FF573B; 
+    }
+/* Contact us */
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .contact-us-body {
+    background-image: url('your-image-path.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif;
+} */
+
+.contact-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.contact-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contact-title h1 {
+    color: white; 
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-highlight {
+    color: #fc6045;
+}
+
+.contact-us-content {
+    padding: 50px;
+}
+
+.unique-input, .unique-textarea {
+    border: 2px solid #f3afa3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.unique-btn {
+    background-color: #fc6045;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.unique-btn:hover {
+    background-color: #e5553e;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-us-content {
+        padding: 20px;
+    }
+    
+    .contact-us-header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+/* footer section start here     */
+.footer ul {
+    padding-left: 0;
+}
+.footer{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-footer{
+
+    background-color: #FF573B;
+
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .bg-dark {
+    background-color: #000000;
+}
+.ot{
+    width: 383px;
+    height: 380px;
+}
+.oj{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aboutus{
+    background-image: url(assets/img/oj1.png);
+    height: 400px;
+    background-size: cover;
+}
+
+
+
+
+
+

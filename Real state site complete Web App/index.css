@@ -1,0 +1,449 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+} */
+/* .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+} */
+
+.sfont1{
+    font-size: 70px;
+}
+.spara1{
+    font-size: 25px;
+}
+.sbtnclr1{
+    background: #FF573B;
+    font-size: 25px;
+    padding: 20px 30px 20px 30px;
+}
+.sproperty-section {
+    text-align: center;
+    padding: 30px 0;
+}
+.sproperty-section1 {
+    text-align: center;
+    
+}
+.property-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sspan2 {
+    color: #ff5733; /* Accent color for "Types" */
+}
+.property-title-underline {
+    width: 60px;
+    height: 4px;
+    background-color: #ff5733;
+    margin: 0 auto 40px auto;
+}
+.sproperty-card {
+    border: 2px solid rgba(254, 74, 34, 0.2); 
+    padding: 30px;
+    /* border-radius: 10px; */
+    transition: all 0.3s ease-in-out;
+    box-shadow:  0 0 0 7px #FF573B1A; /* Update this line */
+}
+.sproperty-card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    box-shadow:  0 0 0 7px #FF573B1A;
+}
+/* .property-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff5733;
+} */
+.sborder1{
+    border: 2px Dotted #FF573B;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+.simg1{
+    margin-top: 20px;
+}
+
+.sproperty-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+.sproperty-count {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* card section */
+
+
+.listing-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.listing-section1 {
+    text-align: center;     
+}
+.listing-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sspan1 {
+    color: #ff5733; /* Accent color for "Listing" */
+}
+.listing-title-underline {
+    width: 70px;
+    height: 4px;
+    background-color: #ff5733;
+    margin: 0 auto 30px auto;
+}
+.property-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.property-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.sproperty-image {
+    position: relative;
+}
+.sproperty-image img {
+    width: 100%;
+    height: auto;
+}
+.badge-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+.type-badge {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #17a2b8; /* Default color */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.property-title {
+    font-size: 1.25rem;
+    font-weight: medium;
+    margin-bottom: 10px;
+    color: #ff5733;
+}
+.property-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.property-location {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+.property-availability {
+    font-size: 0.875rem;
+    color: #ff5733;
+    margin-bottom: 15px;
+}
+.property-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.property-time {
+    font-size: 0.875rem;
+    color: #888;
+}
+.simg3 {
+   position: relative;
+   right: 15px;
+}
+.property-heart {
+    color: #ff5733;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.background1{
+    background:url(assets/img/Group\ 53.png);
+}
+.sfont2{
+    font-size: 60px;
+}
+.sbtn2{
+    background-color: transparent;
+    border: 1px solid white ;
+}
+.sbtn2:hover{
+    background-color:#ff5733 ;
+    border: 1px solid #ff5733;
+}
+
+.testimonial-section {
+    text-align: center;
+    padding-top: 20px;
+    /* background-color: #f9f9f9; */
+}
+.testimonial-header {
+    margin-bottom: 40px;
+}
+.testimonial-header .section-title {
+    color: #ff5733;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sh2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sspan3 {
+    color: #ff5733; /* Accent color for "Help" */
+}
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0px 8px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.testimonial-icon {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff5733;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.testimonial-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+.testimonial-author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.testimonial-author-name {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.testimonial-author-title {
+    font-size: 0.875rem;
+    color: #ff5733;
+}
+
+.agents-section h2 {
+    color: #ff5e3a;
+    margin-bottom: 30px;
+}
+
+.agent-card {
+    background-color: #1c2336;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.agent-card .card-body {
+    background-color: #ff5e3a;
+    padding: 20px;
+}
+
+.agent-card .card-title {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+    @media (max-width: 1200px) {
+        .sfont1 {
+        font-size: 50px;
+        }
+        .spara1{
+            font-size: 20px;
+        }
+        .sbtnclr1{
+            font-size: 20px;
+            padding: 17px 25px 17px 25px;
+        }
+    }
+
+  @media (max-width: 1050px) {
+    .sfont1 {
+      font-size: 40px;
+    }
+    .spara1{
+        font-size: 18px;
+    }
+    .sbtnclr1{
+        font-size: 18px;
+        padding: 15px 18px 15px 18px;
+    }
+  }
+  @media (max-width: 835px) {
+    .sfont1 {
+      font-size: 33px;
+    }
+    .spara1{
+        font-size: 16px;
+    }
+    .sbtnclr1{
+        font-size: 16px;
+        padding: 13px 15px 13px 15px;
+    }
+  }
+  @media (max-width: 760px) {
+    .sfont1 {
+      font-size: 25px;
+    }
+    .spara1{
+        font-size: 14px;
+    }
+    .sbtnclr1{
+        font-size: 14px;
+        padding: 10px 12px 10px 12px;
+    }
+  }
+  @media (max-width: 630px) {
+    .sfont1 {
+      font-size: 20px;
+    }
+    .spara1{
+        font-size: 12px;
+    }
+    .sbtnclr1{
+        font-size: 12px;
+        padding: 8px 10px 8px 10px;
+    }
+  }
+  @media (max-width: 560px) {
+    .sfont1 {
+      font-size: 25px;
+    }
+    /* .spara1{
+        font-size: 10px;
+    } */
+    .sbtnclr1{
+        font-size: 15px;
+        padding: 5px 8px 5px 8px;
+    }
+  }
+   @media (max-width: 410px) {
+    .sfont1 {
+      font-size: 18px;
+    }
+    /* .spara1{
+        font-size: 10px;
+    } */
+    .sbtnclr1{
+        font-size: 12px;
+        padding: 4px 6px 4px 6px;
+    }
+  }
+  /*@media (max-width: 440px) {
+    .sfont1 {
+      font-size: 12px;
+    }
+    .spara1{
+        font-size: 8px;
+    }
+    .sbtnclr1{
+        font-size: 8px;
+        padding: 4px 6px 4px 6px;
+    }
+  }
+  @media (max-width: 426px) {
+    .sfont1 {
+      font-size: 10px;
+    }
+    .spara1{
+        font-size: 8px;
+    }
+    .sbtnclr1{
+        font-size: 8px;
+        padding: 4px 6px 4px 6px;
+    }
+  } */
+
+  /* footer section start here     */
+.footer ul {
+    padding-left: 0;
+}
+.footer{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-footer{
+
+    background-color: #FF573B;
+
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .bg-dark {
+    background-color: #000000;
+}
